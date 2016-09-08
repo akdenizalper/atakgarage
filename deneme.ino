@@ -25,7 +25,6 @@ delay(1120);
 }
 
 void durdurma(){
-  if(digitalRead(dur)==HIGH){
   digitalWrite(led1,LOW);
 digitalWrite(led2,LOW);
-}}
+}
