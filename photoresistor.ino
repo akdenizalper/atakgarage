@@ -12,7 +12,7 @@ for(int i=0; i<sayi ; i++){
 void loop() {
   // put your main code here, to run repeatedly:
 deger=analogRead(ldr);
-if(deger>0 && deger<=255){
+if(deger>0 && deger<=255){     //Photoresistorun okudugu deger gore led yaktırdım
   digitalWrite(ledler[0],HIGH);
   digitalWrite(ledler[1],LOW);
   digitalWrite(ledler[2],LOW);
