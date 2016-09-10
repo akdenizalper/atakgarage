@@ -2,16 +2,16 @@ int led[]={4,5,6,7,8,9,10};
 int sayi=8;
 void setup() 
 {
-  // put your setup code here, to run once:
+  //init
   for(int i=0; i<sayi; i++){
 pinMode(led[i],OUTPUT);
 }
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
-digitalWrite(led[0],HIGH);  //basit bir sayaç
+//bunları bir fonsiyona yazıp ordan cagirsana
+//countr(int a);
+digitalWrite(led[0],HIGH);  //basit bir sayaç ??????
 
 digitalWrite(led[1],HIGH);
 
